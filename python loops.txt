@@ -1,0 +1,10 @@
+Python For Loop can be used to iterate a set of statements once for each item of a sequence or collection.
+
+The sequence or collection could be Range, List, Tuple, Dictionary, Set or a String.
+
+In this tutorial, we will learn how to implement for loop for each of the above said collections. Going forward, we have detailed example programs with Python For Loop.
+
+The syntax of For Loop in Python is
+
+ for item in iterable:
+    statement(s)

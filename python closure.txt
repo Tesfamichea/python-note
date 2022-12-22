@@ -1,0 +1,22 @@
+Closure
+
+A function defined inside another function is called a nested function. Nested functions can access variables of the enclosing scope.
+
+In Python, these non-local variables are read-only by default and we must declare them explicitly as non-local (using nonlocal keyword) in order to modify them.
+
+The criteria that must be met to create closure in Python are summarized in the following points.
+
+    We must have a nested function (function inside a function).
+    The nested function must refer to a value defined in the enclosing function.
+    The enclosing function must return the nested function.
+Example
+
+    def function_1():
+    msg = 'Meghana'
+    def function_2():
+        msg = 'CodeSpeedy'
+        print(msg)
+    function_2()
+    print(msg)
+function_1()
+
